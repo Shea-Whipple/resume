@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: Cover Letter
+title: Resume and CV
 sections:
   - type: FeaturedPostsSection
     title:
