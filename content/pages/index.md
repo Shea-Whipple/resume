@@ -10,15 +10,6 @@ sections:
     subtitle: ''
     text: ''
     actions:
-      - label: View Cover Letter
-        altText: ''
-        url: /CV Letter
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        elementId: ''
-        type: Button
       - type: Button
         label: Resume
         altText: ''
