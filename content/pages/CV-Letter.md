@@ -10,9 +10,7 @@ sections:
       styles:
         self:
           textAlign: center
-    posts:
-      - >-
-        content/pages/blog/how-to-write-a-blog-post-that-will-get-you-more-traffic.md
+    posts: []
     showThumbnail: true
     showExcerpt: true
     showDate: true
