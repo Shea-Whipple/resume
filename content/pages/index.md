@@ -22,7 +22,7 @@ sections:
         type: Button
     media:
       url: /images/4cd337a8-ec9d-4c91-ba31-3a1a74ad4489.jpg
-      altText: Unblock your team boost your time to production preview
+      altText: ''
       elementId: ''
       type: ImageBlock
     badge:
