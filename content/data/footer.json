@@ -10,12 +10,6 @@
             "url": "https://github.com/Shea-Whipple",
             "icon": "github",
             "type": "Social"
-        },
-        {
-            "altText": "Email link",
-            "url": "",
-            "icon": "mail",
-            "type": "Social"
         }
     ],
     "legalLinks": [],
