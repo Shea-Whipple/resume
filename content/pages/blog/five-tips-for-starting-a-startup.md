@@ -1,5 +1,5 @@
 ---
-title: ''
+title: Resume
 slug: five-tips-for-starting-a-startup
 date: ''
 excerpt: >-
