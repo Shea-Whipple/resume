@@ -37,7 +37,7 @@ sections:
       styles:
         self:
           textAlign: center
-    subtitle: Subtitle goes here
+    subtitle: Shea Whipple
     items:
       - type: FeaturedItem
         title: Senior Software Engineer
