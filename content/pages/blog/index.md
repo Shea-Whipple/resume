@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Cover Letter
 slug: /blog
 numOfPostsPerPage: 8
 enableSearch: true
