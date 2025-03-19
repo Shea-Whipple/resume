@@ -41,7 +41,7 @@ sections:
           - pr-16
 seo:
   metaTitle: Shea Whipple - Resume
-  metaDescription: This demo site is built with Netlify Create.
+  metaDescription: Epic website
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
