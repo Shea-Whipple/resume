@@ -3,13 +3,6 @@ type: PageLayout
 title: Resume and CV
 sections:
   - type: FeaturedPostsSection
-    title:
-      type: TitleBlock
-      text: Resume
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
     posts: []
     showThumbnail: true
     showExcerpt: true
