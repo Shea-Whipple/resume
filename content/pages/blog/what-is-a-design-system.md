@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: ''
+title: Shea Whipple
 slug: what-is-a-design-system
 date: '2025-03-19'
 excerpt: >-
