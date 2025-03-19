@@ -9,7 +9,7 @@ sections:
       type: TitleBlock
     subtitle: My Website
     text: |
-      Use the buttons to navigate the webpage
+      Use the buttons to navigate the webpage.
     actions:
       - label: Get started
         altText: ''
