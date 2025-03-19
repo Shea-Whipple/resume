@@ -14,7 +14,7 @@
         {
             "type": "Social",
             "altText": "Email icon",
-            "url": "/links",
+            "url": "/",
             "icon": "mail",
             "elementId": ""
         }
