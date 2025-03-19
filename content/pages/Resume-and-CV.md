@@ -42,10 +42,8 @@ sections:
       - type: FeaturedItem
         title: Resume & Cover Letter
         subtitle: ''
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >
+          https\://drive.google.com/file/d/1FqnN5ppMTzmfiJ-XTb8J21CsMRzKA3pY/view?usp=sharing
         actions: []
         colors: bg-neutral-fg-dark
         styles:
