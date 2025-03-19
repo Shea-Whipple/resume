@@ -13,7 +13,7 @@ sections:
       - type: Button
         label: Resume
         altText: ''
-        url: /Resume
+        url: /Resume and CV
         showIcon: false
         icon: arrowRight
         iconPosition: right
