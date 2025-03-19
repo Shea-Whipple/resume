@@ -29,7 +29,7 @@ sections:
           - pr-16
         justifyContent: center
       subtitle:
-        textAlign: center
+        textAlign: left
     subtitle: >-
       Dear Clearwater Analytics,I am writing to express my interest in the Data
       Analyst position at Clearwater Analytics. With mybackground in computer
