@@ -29,7 +29,7 @@ sections:
           - pb-16
           - pr-16
         justifyContent: center
-slug: CV Letter
+slug: Resume and CV
 isDraft: false
 seo:
   type: Seo
