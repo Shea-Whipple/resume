@@ -3,13 +3,6 @@ type: PageLayout
 title: Cover Letter
 sections:
   - type: FeaturedPostsSection
-    title:
-      type: TitleBlock
-      text: Cover Letter
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
     posts: []
     showThumbnail: true
     showExcerpt: true
