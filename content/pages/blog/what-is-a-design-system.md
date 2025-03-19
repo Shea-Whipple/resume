@@ -18,23 +18,16 @@ styles:
   self:
     flexDirection: col
 ---
+***Educational foundation in Computer Science***, specializing in Data Science, with complementary studies in Psychology, Health, and Music.\*  
 
-A **Design System** is a comprehensive set of standards, principles, and tools that guide the design and development of a product or service. It provides a unified framework to ensure consistency, efficiency, and scalability across a product's user interface (UI) and user experience (UX).
+**Hands-on experience in technical roles**, such as a Control Systems Intern, demonstrating adaptability and teamwork.
 
-### Key Components of a Design System:
+**Well-rounded programming expertise**, including JavaScript, Python, C++, HTML, SQLite, and RStudio.
 
-1. **Style Guide**: Defines the visual elements like color palettes, typography, icons, and spacing guidelines.
-2. **Component Library**: A collection of reusable UI components such as buttons, forms, modals, etc., that adhere to the style guide.
-3. **Design Principles**: Core philosophies and guidelines that inform the design choices, ensuring a cohesive look and feel.
-4. **Patterns**: Reusable solutions for common design problems, such as navigation, search, or error handling.
-5. **Documentation**: Comprehensive guidance on how to use and implement the components, principles, and patterns.
-6. **Branding Guidelines**: Ensures that the product's design aligns with the overall brand identity.
+**Versed in practical data applications**, from regression and classification to feature engineering and model evaluation. 
 
-### Benefits of a Design System:
+**Creator of impactful projects**, such as a directory search tool, calorie tracker, and K-Nearest Neighbors implementation.
 
-- **Consistency**: Ensures a cohesive user experience across different platforms and products.
-- **Efficiency**: Speeds up the design and development process by providing ready-to-use components and guidelines.
-- **Scalability**: Makes it easier to scale the product by maintaining design consistency as the team grows or the product evolves.
-- **Collaboration**: Enhances communication between designers, developers, and other stakeholders by providing a common language and resources.
+**Recognized for excellence**, earning certifications in programming and a scholarship for academic achievement.
 
-Would you like to dive deeper into any specific aspect of a Design System?
+**Core strengths in professionalism, resourcefulness, and clear communication**, alongside a technical aptitude in software like Excel and GitHub.
