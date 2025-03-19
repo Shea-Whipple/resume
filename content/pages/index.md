@@ -21,7 +21,7 @@ sections:
         elementId: ''
         type: Button
     media:
-      url: /images/4cd337a8-ec9d-4c91-ba31-3a1a74ad4489.jpg
+      url: /images/99AD0734-.jpg
       altText: ''
       elementId: ''
       type: ImageBlock
