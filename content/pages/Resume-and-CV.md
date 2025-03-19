@@ -32,7 +32,7 @@ sections:
   - type: FeaturedItemsSection
     title:
       type: TitleBlock
-      text: Open positions
+      text: Resume
       color: text-dark
       styles:
         self:
