@@ -1,7 +1,7 @@
 ---
 title: Cover Letter
 slug: /blog
-numOfPostsPerPage: 1
+numOfPostsPerPage: 0
 enableSearch: true
 topSections:
   - title:
