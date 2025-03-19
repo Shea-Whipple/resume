@@ -11,7 +11,7 @@ sections:
     text: |
       Use the buttons to navigate the webpage.
     actions:
-      - label: Get started
+      - label: View Resume
         altText: ''
         url: /
         showIcon: false
