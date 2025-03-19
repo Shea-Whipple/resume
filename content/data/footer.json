@@ -4,14 +4,7 @@
         "type": "ImageBlock"
     },
     "text": "Socials\n",
-    "socialLinks": [
-        {
-            "altText": "GitHub link",
-            "url": "https://github.com/Shea-Whipple",
-            "icon": "github",
-            "type": "Social"
-        }
-    ],
+    "socialLinks": [],
     "legalLinks": [],
     "copyrightText": "\n\n",
     "colors": "bg-dark-fg-light",
