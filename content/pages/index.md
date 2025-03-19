@@ -12,7 +12,7 @@ sections:
     actions:
       - label: View Cover Letter
         altText: ''
-        url: /
+        url: /CV Letter
         showIcon: false
         icon: arrowRight
         iconPosition: right
