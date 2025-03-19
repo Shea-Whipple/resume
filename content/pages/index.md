@@ -8,8 +8,7 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle: ''
-    text: |
-      Use the buttons to navigate the webpage.
+    text: ''
     actions:
       - label: View Resume
         altText: ''
