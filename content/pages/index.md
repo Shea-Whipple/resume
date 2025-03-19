@@ -40,7 +40,7 @@ sections:
           - pb-16
           - pr-16
 seo:
-  metaTitle: Home - Demo site
+  metaTitle: Shea Whipple - Resume
   metaDescription: This demo site is built with Netlify Create.
   socialImage: /images/main-hero.jpg
   type: Seo
