@@ -28,7 +28,7 @@ sections:
           - pb-16
           - pr-16
         justifyContent: center
-    subtitle: w
+    subtitle: ''
 slug: CV Letter
 isDraft: false
 seo:
