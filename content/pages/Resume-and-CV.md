@@ -49,6 +49,5 @@ seo:
   metaTitle: Resume
   metaDescription: Resume & Cover Letter
   addTitleSuffix: false
-  socialImage: /images/main-hero.jpg
   metaTags: []
 ---
