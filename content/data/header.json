@@ -13,7 +13,7 @@
     "primaryLinks": [
         {
             "type": "Button",
-            "label": "Get started",
+            "label": "Resume",
             "altText": "",
             "url": "/blog",
             "showIcon": false,
