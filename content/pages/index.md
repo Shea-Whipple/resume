@@ -20,7 +20,7 @@ sections:
         elementId: ''
         type: Button
       - type: Button
-        label: Get started
+        label: Resume
         altText: ''
         url: /CV Letter
         showIcon: false
