@@ -13,7 +13,7 @@
     "primaryLinks": [
         {
             "type": "SubNav",
-            "label": "Dropdown",
+            "label": "Dropdown Navigation",
             "altText": "Dropdown",
             "links": [
                 {
