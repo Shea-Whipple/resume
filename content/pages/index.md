@@ -10,7 +10,7 @@ sections:
     subtitle: ''
     text: ''
     actions:
-      - label: View Resume
+      - label: View Cover Letter
         altText: ''
         url: /
         showIcon: false
