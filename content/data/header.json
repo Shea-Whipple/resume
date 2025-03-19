@@ -40,7 +40,7 @@
                 },
                 {
                     "type": "Link",
-                    "label": "Dropdown item",
+                    "label": "Resume",
                     "altText": "",
                     "url": "/",
                     "showIcon": false,
