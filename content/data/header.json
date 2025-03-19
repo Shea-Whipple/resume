@@ -10,49 +10,7 @@
         },
         "type": "ImageBlock"
     },
-    "primaryLinks": [
-        {
-            "type": "SubNav",
-            "label": "",
-            "altText": "Dropdown",
-            "links": [
-                {
-                    "type": "Link",
-                    "label": "Home",
-                    "altText": "",
-                    "url": "/",
-                    "showIcon": false,
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "elementId": ""
-                },
-                {
-                    "type": "Link",
-                    "label": "Cover Letter",
-                    "altText": "",
-                    "url": "/",
-                    "showIcon": false,
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "elementId": ""
-                },
-                {
-                    "type": "Link",
-                    "label": "Dropdown item",
-                    "altText": "",
-                    "url": "/",
-                    "showIcon": false,
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "elementId": ""
-                }
-            ],
-            "labelStyle": "secondary"
-        }
-    ],
+    "primaryLinks": [],
     "secondaryLinks": [],
     "variant": "logo-left-primary-nav-centered",
     "colors": "bg-light-fg-dark",
