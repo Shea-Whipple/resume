@@ -7,7 +7,7 @@ sections:
       text: Shea Whipple
       color: text-dark
       type: TitleBlock
-    subtitle: My Website
+    subtitle: ''
     text: |
       Use the buttons to navigate the webpage.
     actions:
