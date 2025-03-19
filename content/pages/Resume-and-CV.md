@@ -40,7 +40,7 @@ sections:
     subtitle: Shea Whipple
     items:
       - type: FeaturedItem
-        title: Senior Software Engineer
+        title: Resume & Cover Letter
         subtitle: Engineering
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
