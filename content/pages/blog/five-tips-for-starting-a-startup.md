@@ -90,4 +90,4 @@ styles:
 author: content/data/person6.json
 type: PostLayout
 ---
-<https://drive.google.com/file/d/1FqnN5ppMTzmfiJ-XTb8J21CsMRzKA3pY/view?usp=sharing>
+[hi https://drive.google.com/file/d/1FqnN5ppMTzmfiJ-XTb8J21CsMRzKA3pY/view?usp=sharing](https://drive.google.com/file/d/1FqnN5ppMTzmfiJ-XTb8J21CsMRzKA3pY/view?usp=sharing)
