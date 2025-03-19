@@ -12,17 +12,6 @@
     },
     "primaryLinks": [
         {
-            "type": "Button",
-            "label": "Navigation",
-            "altText": "",
-            "url": "/blog",
-            "showIcon": false,
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "elementId": ""
-        },
-        {
             "type": "SubNav",
             "label": "Dropdown",
             "altText": "Dropdown",
