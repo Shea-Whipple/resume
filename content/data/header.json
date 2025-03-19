@@ -10,19 +10,7 @@
         },
         "type": "ImageBlock"
     },
-    "primaryLinks": [
-        {
-            "type": "Button",
-            "label": "Resume",
-            "altText": "",
-            "url": "/blog",
-            "showIcon": false,
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "elementId": ""
-        }
-    ],
+    "primaryLinks": [],
     "secondaryLinks": [],
     "variant": "logo-left-primary-nav-centered",
     "colors": "bg-light-fg-dark",
