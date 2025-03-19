@@ -32,7 +32,7 @@ sections:
         textAlign: left
         fontWeight: 400
     subtitle: >-
-      Dear Clearwater Analytics,I am writing to express my interest in the Data
+      Dear Clearwater Analytics, I am writing to express my interest in the Data
       Analyst position at Clearwater Analytics. With mybackground in computer
       science, and hands-on experience in control systems and data analysis, Iam
       excited about the opportunity to contribute to your team and help drive
