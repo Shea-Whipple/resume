@@ -18,23 +18,9 @@ styles:
   self:
     flexDirection: col
 ---
+*   *   **Driven by a passion for leveraging data** to inspire innovation and solve challenging problems.*   **Educational foundation in Computer Science**, specializing in Data Science, with complementary studies in Psychology, Health, and Music.*   **Hands-on experience in technical roles**, such as a Control Systems Intern, demonstrating adaptability and teamwork.*   **Well-rounded programming expertise**, including JavaScript, Python, C++, HTML, SQLite, and RStudio.*   **Versed in practical data applications**, from regression and classification to feature engineering and model evaluation.*   **Creator of impactful projects**, such as a directory search tool, calorie tracker, and K-Nearest Neighbors implementation.*   **Recognized for excellence**, earning certifications in programming and a scholarship for academic achievement.*   **Core strengths in professionalism, resourcefulness, and clear communication**, alongside a technical aptitude in software like Excel and GitHub.
 
-A **Design System** is a comprehensive set of standards, principles, and tools that guide the design and development of a product or service. It provides a unified framework to ensure consistency, efficiency, and scalability across a product's user interface (UI) and user experience (UX).
 
-### Key Components of a Design System:
 
-1. **Style Guide**: Defines the visual elements like color palettes, typography, icons, and spacing guidelines.
-2. **Component Library**: A collection of reusable UI components such as buttons, forms, modals, etc., that adhere to the style guide.
-3. **Design Principles**: Core philosophies and guidelines that inform the design choices, ensuring a cohesive look and feel.
-4. **Patterns**: Reusable solutions for common design problems, such as navigation, search, or error handling.
-5. **Documentation**: Comprehensive guidance on how to use and implement the components, principles, and patterns.
-6. **Branding Guidelines**: Ensures that the product's design aligns with the overall brand identity.
 
-### Benefits of a Design System:
 
-- **Consistency**: Ensures a cohesive user experience across different platforms and products.
-- **Efficiency**: Speeds up the design and development process by providing ready-to-use components and guidelines.
-- **Scalability**: Makes it easier to scale the product by maintaining design consistency as the team grows or the product evolves.
-- **Collaboration**: Enhances communication between designers, developers, and other stakeholders by providing a common language and resources.
-
-Would you like to dive deeper into any specific aspect of a Design System?
