@@ -2,7 +2,7 @@
 type: PostLayout
 title: ''
 slug: what-is-a-design-system
-date: '2023-03-19'
+date: '2025-03-19'
 excerpt: >-
   https://drive.google.com/file/d/1FqnN5ppMTzmfiJ-XTb8J21CsMRzKA3pY/view?usp=sharing
 bottomSections: []
