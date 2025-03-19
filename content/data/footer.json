@@ -36,7 +36,7 @@
             "type": "Link"
         }
     ],
-    "copyrightText": "Powered by [Netlify](https://www.netlify.com/)\n",
+    "copyrightText": "\n\n",
     "colors": "bg-dark-fg-light",
     "type": "Footer"
 }
