@@ -2,10 +2,7 @@
 title: Resume
 slug: five-tips-for-starting-a-startup
 date: '2002-07-21'
-excerpt: >-
-  Sit ratione eligendi et quis distinctio et maiores accusantium aut accusamus
-  facere sit repellat quidem qui alias nostrum et earum enim. Cum quis sint eos
-  dolor quas ad odit ipsum qui quia eius.
+excerpt: ''
 featuredImage:
   altText: Thumbnail
   type: ImageBlock
