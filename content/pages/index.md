@@ -22,7 +22,7 @@ sections:
       - type: Button
         label: Resume
         altText: ''
-        url: /CV Letter
+        url: /Resume
         showIcon: false
         icon: arrowRight
         iconPosition: right
