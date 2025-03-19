@@ -46,7 +46,7 @@ slug: Resume and CV
 isDraft: false
 seo:
   type: Seo
-  metaTitle: Landing Page
+  metaTitle: Resume
   metaDescription: Write here your new page's description including most relevant keywords.
   addTitleSuffix: true
   socialImage: /images/main-hero.jpg
