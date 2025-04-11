@@ -17,7 +17,7 @@ sections:
         subtitle: ''
         text: >
           [Link To CV and Resume
-          ](https://drive.google.com/file/d/1awskSLBAwukzIgWg3eBqVQRBImELCkmY/view?usp=sharing)
+          ](https://drive.google.com/file/d/14GvbXsqVGJe7KMSKflvarLoUlUPz97SX/view?usp=sharing)
         actions: []
         colors: bg-neutral-fg-dark
         styles:
