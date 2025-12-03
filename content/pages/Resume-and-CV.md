@@ -13,7 +13,7 @@ sections:
     subtitle: Shea Whipple
     items:
       - type: FeaturedItem
-        title: Resume & Cover Letter
+        title: Resume Link
         subtitle: ''
         text: >
           [Link to
