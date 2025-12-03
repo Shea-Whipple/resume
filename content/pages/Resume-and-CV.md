@@ -16,8 +16,7 @@ sections:
         title: Resume & Cover Letter
         subtitle: ''
         text: >
-          [Link To CV and Resume
-          ](https://drive.google.com/file/d/14GvbXsqVGJe7KMSKflvarLoUlUPz97SX/view?usp=sharing)
+          <https://docs.google.com/document/d/1V2oM2bbO93YqTywFUabC310FwCoAdse8MeqTpcg1i3Q/edit?usp=sharing>
         actions: []
         colors: bg-neutral-fg-dark
         styles:
