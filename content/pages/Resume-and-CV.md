@@ -16,7 +16,8 @@ sections:
         title: Resume & Cover Letter
         subtitle: ''
         text: >
-          <https://docs.google.com/document/d/1V2oM2bbO93YqTywFUabC310FwCoAdse8MeqTpcg1i3Q/edit?usp=sharing>
+          [Link to
+          Resume](https://docs.google.com/document/d/1V2oM2bbO93YqTywFUabC310FwCoAdse8MeqTpcg1i3Q/edit?usp=sharing)
         actions: []
         colors: bg-neutral-fg-dark
         styles:
