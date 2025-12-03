@@ -16,8 +16,7 @@ sections:
         title: Resume & Cover Letter
         subtitle: ''
         text: >
-          [https://drive.google.com/file/d/1FqnN5ppMTzmfiJ-XTb8J21CsMRzKA3pY/view?usp=sharing
-          ](https://drive.google.com/file/d/1FqnN5ppMTzmfiJ-XTb8J21CsMRzKA3pY/view?usp=sharing)
+          <https://docs.google.com/document/d/1V2oM2bbO93YqTywFUabC310FwCoAdse8MeqTpcg1i3Q/edit?usp=sharing>
         actions: []
         colors: bg-neutral-fg-dark
         styles:
