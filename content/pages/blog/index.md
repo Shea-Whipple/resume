@@ -1,7 +1,7 @@
 ---
-title: Blog
+title: Cover Letter
 slug: /blog
-numOfPostsPerPage: 8
+numOfPostsPerPage: 0
 enableSearch: true
 topSections:
   - title:
@@ -43,10 +43,10 @@ postFeed:
   type: PagedPostsSection
   title: null
   subtitle: null
-  showThumbnail: true
-  showExcerpt: true
-  showDate: true
-  showAuthor: true
+  showThumbnail: false
+  showExcerpt: false
+  showDate: false
+  showAuthor: false
   actions: []
   elementId: null
   variant: three-col-grid

@@ -44,5 +44,6 @@ seo:
   metaDescription: Epic website
   type: Seo
   addTitleSuffix: false
+  metaTags: []
 type: PageLayout
 ---
