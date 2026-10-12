@@ -71,13 +71,6 @@ sections:
           - Minor — Psychology and Health
 
           - Minor — Music
-        image:
-          url: /images/diploma-college-of-idaho.jpg
-          altText: >-
-            Bachelor of Arts diploma for Shea O Whipple from The College of
-            Idaho, conferred July 24, 2026
-          elementId: diploma
-          type: ImageBlock
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -87,7 +80,7 @@ sections:
               - pl-2
               - pb-6
               - pr-2
-            flexDirection: col-reverse
+            flexDirection: col
             textAlign: left
       - type: FeaturedItem
         title: Experience
