@@ -108,10 +108,9 @@ sections:
           *June 2023 – August 2023*
 
 
-          Supported industrial control work across remote sites and plant
-          systems—wiring and commissioning instrumentation to PLCs, bringing
-          chemical-feed sites online to SCADA, and configuring secure
-          cell-modem links for remote monitoring.
+          SCADA and PLC work at plant and remote sites. Instrumentation wiring,
+          chemical-feed site bring-up, and secure cell-modem links for remote
+          monitoring.
 
 
           **Smiths, Las Vegas — Courtesy Clerk**
