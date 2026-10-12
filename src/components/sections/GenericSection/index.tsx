@@ -103,9 +103,9 @@ export default function GenericSection(props) {
                 {hasMedia && (
                     <div
                         className={classNames('w-full', 'flex', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }), {
-                            'max-w-sectionBody': media.__metadata.modelName === 'FormBlock',
+                            'max-w-sectionBody': media.__metadata?.modelName === 'FormBlock',
                             'lg:w-[57.5%] lg:shrink-0': hasTextContent && hasXDirection,
-                            'lg:mt-10': badge?.label && media.__metadata.modelName === 'FormBlock' && hasXDirection
+                            'lg:mt-10': badge?.label && media.__metadata?.modelName === 'FormBlock' && hasXDirection
                         })}
                     >
                         <Media media={media} hasAnnotations={enableAnnotations} />
@@ -117,7 +117,7 @@ export default function GenericSection(props) {
 }
 
 function Media({ media, hasAnnotations }: { media: any; hasAnnotations: boolean }) {
-    const modelName = media.__metadata.modelName;
+    const modelName = media.__metadata?.modelName || media.type;
     if (!modelName) {
         throw new Error(`generic section media does not have the 'modelName' property`);
     }

@@ -63,14 +63,18 @@ sections:
         title: Education
         subtitle: The College of Idaho — Bachelor of Arts
         text: >
-          **Conferred July 24, 2026**
+          Conferred July 24, 2026.
 
 
-          - Major — Computer Science — Data Science Specialization
-
-          - Minor — Psychology and Health
-
-          - Minor — Music
+          Major in Computer Science with a Data Science specialization. Minors
+          in Psychology and Health, and in Music.
+        image:
+          url: /images/diploma-college-of-idaho.jpg
+          altText: >-
+            Bachelor of Arts diploma for Shea O Whipple from The College of
+            Idaho, conferred July 24, 2026
+          elementId: diploma
+          type: ImageBlock
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -80,7 +84,7 @@ sections:
               - pl-2
               - pb-6
               - pr-2
-            flexDirection: col
+            flexDirection: col-reverse
             textAlign: left
       - type: FeaturedItem
         title: Experience
@@ -92,10 +96,9 @@ sections:
           *Jan 2026 – June 2026*
 
 
-          - Built SQL Server (SSMS) queries and Excel scripting to automate data
-          pulls, charts, and reporting for business insights
-
-          - Supported day-to-day automation and data-driven decision workflows
+          Built SQL Server (SSMS) queries and Excel scripting to automate data
+          pulls, charts, and reporting for business insights. Supported
+          day-to-day automation and data-driven decision workflows.
 
 
           **CCWRD (Clark County Water Reclamation District), Las Vegas —
@@ -105,25 +108,10 @@ sections:
           *June 2023 – August 2023*
 
 
-          - Connected the Robindale remote chemical feed site to SCADA by
-          wiring a peristaltic pump and hydrostatic pressure transmitter and
-          programming pump functionality
-
-          - Programmed and tested 14 cell-modem gateways on a private cell
-          network (PCN) for secure remote-site data to plant SCADA, including
-          firmware updates and FirstNet connectivity checks
-
-          - Assembled and wired industrial control panels from schematics
-          (relays, power supplies, breakers, PLCs, and I/O cards)
-
-          - Installed and wired 4–20 mA instrumentation to Allen-Bradley
-          MicroLogix PLCs (radar/ultrasonic level transmitters, float switches)
-          and Flex I/O / wireless Ethernet panels with electric actuators
-
-          - Wired and calibrated vibration transmitters, modulating actuators,
-          and RTDs for Roots blower commissioning; updated Aveva System
-          Platform SCADA variables and alarm descriptions via Galaxy dump/load
-          and Excel
+          Supported industrial control work across remote sites and plant
+          systems—wiring and commissioning instrumentation to PLCs, bringing
+          chemical-feed sites online to SCADA, and configuring secure
+          cell-modem links for remote monitoring.
 
 
           **Smiths, Las Vegas — Courtesy Clerk**
@@ -132,13 +120,10 @@ sections:
           *June 2020 – July 2021*
 
 
-          - Delivered reliable customer service in a high-traffic retail
-          environment
-
-          - Collaborated with teammates to keep floors, carts, and checkout
-          areas running smoothly
-
-          - Managed shifts with strong punctuality and time management
+          Delivered reliable customer service in a high-traffic retail
+          environment, collaborated with teammates to keep operations running
+          smoothly, and managed shifts with strong punctuality and time
+          management.
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -154,9 +139,12 @@ sections:
         title: Projects
         subtitle: ''
         text: >
-          - Weekend Project — Directory search script
+          Weekend project: [directory search
+          script](https://github.com/Shea-Whipple/Weekend-Assignment.git).
 
-          - Group Project — Classification Project
+
+          Group project: [classification
+          project](https://github.com/Shea-Whipple/Classification-Project).
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -172,23 +160,17 @@ sections:
         title: Skills
         subtitle: ''
         text: >
-          - Excel, Word, Powerpoint, Teams, Outlook
-
-          - Professionalism, Timeliness, Resourcefulness, Clear Communication
-
-          - Building Computers (hardware) and computer maintenance (software)
-
-
-          **Programming Skills**
+          Office and collaboration: Excel, Word, PowerPoint, Teams, Outlook.
+          Strengths in professionalism, timeliness, resourcefulness, and clear
+          communication. Comfortable with computer hardware builds and software
+          maintenance.
 
 
-          - Java Script, Python, C++ IDE, HTML, SQLite, Rstudio, Tidymodels,
-          Tidyverse, LLM (AI)
-
-          - Github, T-SQL, SSMS
-
-          - Regression & classification problems, pre-processing, feature
-          engineering, modeling building, and model evaluation
+          Programming and data: JavaScript, Python, C++, HTML, SQLite, RStudio,
+          tidymodels, tidyverse, and practical LLM tooling. Version control and
+          databases with GitHub, T-SQL, and SSMS. Experience with regression and
+          classification, preprocessing, feature engineering, model building,
+          and evaluation.
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -204,7 +186,7 @@ sections:
         title: Awards
         subtitle: ''
         text: >
-          - Scholarship for College of Idaho
+          Scholarship for The College of Idaho.
         actions: []
         colors: bg-light-fg-dark
         styles:

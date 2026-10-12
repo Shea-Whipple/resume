@@ -6,7 +6,17 @@
     "text": "",
     "socialLinks": [],
     "legalLinks": [],
-    "copyrightText": "Shea Whipple",
+    "copyrightText": "",
     "colors": "bg-dark-fg-light",
+    "styles": {
+        "self": {
+            "padding": [
+                "pt-6",
+                "pb-6",
+                "pl-4",
+                "pr-4"
+            ]
+        }
+    },
     "type": "Footer"
 }
