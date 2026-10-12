@@ -23,8 +23,8 @@ module.exports = {
                 primary: themeStyle.primary
             },
             fontFamily: {
-                sans: ['Inter', 'sans-serif'],
-                serif: ['Roboto Slab', 'serif']
+                sans: ['IBM Plex Sans', 'ui-sans-serif', 'sans-serif'],
+                serif: ['IBM Plex Serif', 'ui-serif', 'serif']
             },
             gridTemplateColumns: {
                 16: 'repeat(16, minmax(0, 1fr))'

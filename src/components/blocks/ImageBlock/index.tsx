@@ -12,6 +12,7 @@ export default function ImageBlock(props) {
     const annotations = fieldPath
         ? { 'data-sb-field-path': [fieldPath, `${fieldPath}.url#@src`, `${fieldPath}.altText#@alt`, `${fieldPath}.elementId#@id`].join(' ').trim() }
         : {};
+    const isPortraitFrame = elementId === 'portrait';
 
     return (
         <div
@@ -19,13 +20,14 @@ export default function ImageBlock(props) {
                 'sb-component',
                 'sb-component-block',
                 'sb-component-image-block',
+                isPortraitFrame && 'portrait-frame',
                 className,
                 styles?.self?.margin ? mapStyles({ margin: styles?.self?.margin }) : undefined
             )}
             {...annotations}
         >
             <img
-                id={elementId}
+                id={elementId || undefined}
                 className={classNames(
                     imageClassName,
                     styles?.self?.padding ? mapStyles({ padding: styles?.self?.padding }) : undefined,

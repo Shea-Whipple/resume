@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto+Slab:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,7 +6,8 @@
 
 @layer base {
     body {
-        @apply text-base;
+        @apply text-base antialiased;
+        letter-spacing: -0.011em;
     }
     h1,
     .h1,
@@ -289,6 +290,56 @@
         .sb-component-button-secondary {
             @apply border-dark text-dark;
         }
+    }
+}
+
+@layer components {
+    /* Portrait frame: colors sampled from /images/99AD0734-.jpg (sky → foliage → stone) */
+    .portrait-frame {
+        --portrait-sky: #b9d4ea;
+        --portrait-green: #4f713a;
+        --portrait-stone: #a8b4c0;
+        display: inline-block;
+        max-width: 100%;
+        padding: 3px;
+        border-radius: 1.15rem;
+        background: linear-gradient(
+            165deg,
+            var(--portrait-sky) 0%,
+            var(--portrait-green) 52%,
+            var(--portrait-stone) 100%
+        );
+        box-shadow: 0 18px 40px -28px rgba(31, 41, 51, 0.55);
+    }
+    .portrait-frame img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: calc(1.15rem - 2px);
+    }
+
+    #diploma {
+        max-width: 22rem;
+        width: 100%;
+        height: auto;
+        border-radius: 0.5rem;
+        border: 1px solid rgba(31, 41, 51, 0.12);
+        box-shadow: 0 10px 28px -22px rgba(31, 41, 51, 0.55);
+    }
+
+    .sb-component-header {
+        box-shadow: none;
+        border-bottom: 1px solid rgba(31, 41, 51, 0.08);
+    }
+
+    .sb-component-generic-section .sb-component-title {
+        letter-spacing: -0.03em;
+        font-weight: 600;
+    }
+
+    .sb-component-featured-items-section .sb-card {
+        border: 1px solid rgba(31, 41, 51, 0.08);
+        background: transparent;
     }
 }
 
