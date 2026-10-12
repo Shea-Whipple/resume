@@ -3,6 +3,7 @@ title: Home
 slug: /
 sections:
   - type: GenericSection
+    elementId: home-hero
     title:
       text: Shea Whipple
       color: text-dark
@@ -26,21 +27,16 @@ sections:
       altText: Portrait of Shea Whipple
       elementId: portrait
       type: ImageBlock
-    badge:
-      label: ''
-      color: text-primary
-      type: Badge
-    elementId: ''
     colors: bg-light-fg-dark
     styles:
       self:
         alignItems: center
         flexDirection: row
-        justifyContent: center
+        justifyContent: flex-start
         padding:
-          - pt-20
+          - pt-16
           - pl-6
-          - pb-20
+          - pb-16
           - pr-6
       subtitle:
         textAlign: left

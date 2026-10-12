@@ -318,6 +318,80 @@
         border-radius: calc(1.15rem - 2px);
     }
 
+    #diploma {
+        max-width: 26rem;
+        width: 100%;
+        height: auto;
+        border-radius: 0.4rem;
+        border: 1px solid rgba(31, 41, 51, 0.1);
+        box-shadow: 0 10px 28px -22px rgba(31, 41, 51, 0.5);
+    }
+
+    /* Balanced home hero: photo + identity share one composition */
+    #home-hero {
+        min-height: calc(100vh - 5rem);
+        display: flex;
+        align-items: center;
+    }
+    #home-hero > .max-w-7xl {
+        width: 100%;
+    }
+    #home-hero .sb-component-generic-section,
+    #home-hero.sb-component-generic-section > .max-w-7xl > .flex {
+        width: 100%;
+    }
+    #home-hero.sb-component-section > .max-w-7xl > .w-full.flex {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        align-items: center;
+    }
+    @media (min-width: 768px) {
+        #home-hero.sb-component-section > .max-w-7xl > .w-full.flex {
+            grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+            gap: 3.5rem;
+        }
+        /* copy | photo */
+        #home-hero.sb-component-section > .max-w-7xl > .w-full.flex > :first-child {
+            order: 1;
+            max-width: none !important;
+        }
+        #home-hero.sb-component-section > .max-w-7xl > .w-full.flex > :last-child {
+            order: 2;
+            width: 100% !important;
+            max-width: none !important;
+            justify-content: flex-end;
+        }
+    }
+    #home-hero .sb-component-title {
+        font-size: clamp(2.75rem, 6vw, 4.25rem);
+        line-height: 1.05;
+        letter-spacing: -0.035em;
+        font-weight: 600;
+        text-align: left;
+    }
+    #home-hero .w-full.max-w-sectionBody,
+    #home-hero .w-full.flex.flex-wrap {
+        text-align: left;
+        justify-content: flex-start !important;
+    }
+    #home-hero .portrait-frame {
+        width: min(100%, 28rem);
+        margin-inline: auto;
+    }
+    @media (min-width: 768px) {
+        #home-hero .portrait-frame {
+            width: 100%;
+            max-width: 32rem;
+            margin-inline: 0;
+        }
+    }
+    #home-hero .sb-component-image-block,
+    #home-hero .portrait-frame img {
+        width: 100%;
+        height: auto;
+    }
+
     .sb-component-header {
         box-shadow: none;
         border-bottom: 1px solid rgba(31, 41, 51, 0.08);
@@ -331,6 +405,11 @@
     .sb-component-featured-items-section .sb-card {
         border: 1px solid rgba(31, 41, 51, 0.08);
         background: transparent;
+    }
+
+    .sb-component-footer:not(:has(.sb-footer-bottom)) {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
     }
 }
 
