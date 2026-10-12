@@ -10,7 +10,7 @@ sections:
       styles:
         self:
           textAlign: center
-    subtitle: Resume
+    subtitle: Software & data
     text: >
       I am passionate about harnessing the power of data to drive optimization
       and solve problems.
@@ -43,7 +43,7 @@ sections:
         padding:
           - pt-16
           - pl-4
-          - pb-8
+          - pb-10
           - pr-4
       subtitle:
         textAlign: center
@@ -61,9 +61,9 @@ sections:
     items:
       - type: FeaturedItem
         title: Education
-        subtitle: College of Idaho, Caldwell Idaho — Current student (Bachelor)
+        subtitle: The College of Idaho — Bachelor of Arts
         text: >
-          **August 2021 – July 2026**
+          **Conferred July 24, 2026**
 
 
           - Major — Computer Science — Data Science Specialization
@@ -71,17 +71,23 @@ sections:
           - Minor — Psychology and Health
 
           - Minor — Music
+        image:
+          url: /images/diploma-college-of-idaho.jpg
+          altText: >-
+            Bachelor of Arts diploma for Shea O Whipple from The College of
+            Idaho, conferred July 24, 2026
+          elementId: diploma
+          type: ImageBlock
         actions: []
-        colors: bg-neutral-fg-dark
+        colors: bg-light-fg-dark
         styles:
           self:
             padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
+              - pt-6
+              - pl-2
+              - pb-6
+              - pr-2
+            flexDirection: col-reverse
             textAlign: left
       - type: FeaturedItem
         title: Experience
@@ -93,18 +99,38 @@ sections:
           *Jan 2026 – June 2026*
 
 
-          SQL Server Management Studio. Automation. Data driven business
-          insights. Excel scripting. SQL to Excel automated data pull and
-          graphs.
+          - Built SQL Server (SSMS) queries and Excel scripting to automate data
+          pulls, charts, and reporting for business insights
+
+          - Supported day-to-day automation and data-driven decision workflows
 
 
-          **CCWRD, Las Vegas — Control Systems Intern**
+          **CCWRD (Clark County Water Reclamation District), Las Vegas —
+          Control Systems Intern**
 
 
           *June 2023 – August 2023*
 
 
-          Shea Whipple ICS Maintenance Summer 2023.docx
+          - Connected the Robindale remote chemical feed site to SCADA by
+          wiring a peristaltic pump and hydrostatic pressure transmitter and
+          programming pump functionality
+
+          - Programmed and tested 14 cell-modem gateways on a private cell
+          network (PCN) for secure remote-site data to plant SCADA, including
+          firmware updates and FirstNet connectivity checks
+
+          - Assembled and wired industrial control panels from schematics
+          (relays, power supplies, breakers, PLCs, and I/O cards)
+
+          - Installed and wired 4–20 mA instrumentation to Allen-Bradley
+          MicroLogix PLCs (radar/ultrasonic level transmitters, float switches)
+          and Flex I/O / wireless Ethernet panels with electric actuators
+
+          - Wired and calibrated vibration transmitters, modulating actuators,
+          and RTDs for Roots blower commissioning; updated Aveva System
+          Platform SCADA variables and alarm descriptions via Galaxy dump/load
+          and Excel
 
 
           **Smiths, Las Vegas — Courtesy Clerk**
@@ -113,17 +139,22 @@ sections:
           *June 2020 – July 2021*
 
 
-          Social skills. Team skills. Time management.
+          - Delivered reliable customer service in a high-traffic retail
+          environment
+
+          - Collaborated with teammates to keep floors, carts, and checkout
+          areas running smoothly
+
+          - Managed shifts with strong punctuality and time management
         actions: []
-        colors: bg-neutral-fg-dark
+        colors: bg-light-fg-dark
         styles:
           self:
             padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
+              - pt-6
+              - pl-2
+              - pb-6
+              - pr-2
             flexDirection: col
             textAlign: left
       - type: FeaturedItem
@@ -134,15 +165,14 @@ sections:
 
           - Group Project — Classification Project
         actions: []
-        colors: bg-neutral-fg-dark
+        colors: bg-light-fg-dark
         styles:
           self:
             padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
+              - pt-6
+              - pl-2
+              - pb-6
+              - pr-2
             flexDirection: col
             textAlign: left
       - type: FeaturedItem
@@ -167,15 +197,14 @@ sections:
           - Regression & classification problems, pre-processing, feature
           engineering, modeling building, and model evaluation
         actions: []
-        colors: bg-neutral-fg-dark
+        colors: bg-light-fg-dark
         styles:
           self:
             padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
+              - pt-6
+              - pl-2
+              - pb-6
+              - pr-2
             flexDirection: col
             textAlign: left
       - type: FeaturedItem
@@ -184,15 +213,14 @@ sections:
         text: >
           - Scholarship for College of Idaho
         actions: []
-        colors: bg-neutral-fg-dark
+        colors: bg-light-fg-dark
         styles:
           self:
             padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
+              - pt-6
+              - pl-2
+              - pb-6
+              - pr-2
             flexDirection: col
             textAlign: left
     actions: []
@@ -201,10 +229,10 @@ sections:
     styles:
       self:
         padding:
-          - pb-40
+          - pb-24
           - pt-8
-          - pl-3
-          - pr-3
+          - pl-4
+          - pr-4
         justifyContent: center
       subtitle:
         textAlign: center
@@ -213,7 +241,7 @@ isDraft: false
 seo:
   type: Seo
   metaTitle: Resume
-  metaDescription: Resume & Cover Letter
-  addTitleSuffix: false
+  metaDescription: Resume for Shea Whipple — software and data.
+  addTitleSuffix: true
   metaTags: []
 ---

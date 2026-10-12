@@ -12,39 +12,31 @@
     },
     "primaryLinks": [
         {
-            "type": "SubNav",
-            "label": "Navigation",
-            "altText": "Navigation",
-            "links": [
-                {
-                    "type": "Link",
-                    "label": "Home",
-                    "altText": "",
-                    "url": "/",
-                    "showIcon": false,
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "elementId": ""
-                },
-                {
-                    "type": "Link",
-                    "label": "Resume",
-                    "altText": "",
-                    "url": "/Resume and CV",
-                    "showIcon": false,
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "elementId": ""
-                }
-            ],
-            "labelStyle": "secondary"
+            "type": "Link",
+            "label": "Home",
+            "altText": "",
+            "url": "/",
+            "showIcon": false,
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "elementId": ""
+        },
+        {
+            "type": "Link",
+            "label": "Resume",
+            "altText": "",
+            "url": "/Resume and CV",
+            "showIcon": false,
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "elementId": ""
         }
     ],
     "secondaryLinks": [],
-    "variant": "logo-left-primary-nav-centered",
-    "colors": "bg-neutral-fg-dark",
+    "variant": "logo-left-primary-nav-right",
+    "colors": "bg-light-fg-dark",
     "type": "Header",
-    "title": ""
+    "title": "Shea Whipple"
 }

@@ -7,22 +7,24 @@ sections:
       text: Shea Whipple
       color: text-dark
       type: TitleBlock
-    subtitle: ''
-    text: ''
+    subtitle: Software & data
+    text: >
+      Computer science graduate focused on data, automation, and practical
+      problem-solving.
     actions:
       - type: Button
-        label: Resume
-        altText: ''
+        label: View resume
+        altText: Open resume page
         url: /Resume and CV
-        showIcon: false
+        showIcon: true
         icon: arrowRight
         iconPosition: right
-        style: secondary
+        style: primary
         elementId: ''
     media:
       url: /images/99AD0734-.jpg
-      altText: ''
-      elementId: ''
+      altText: Portrait of Shea Whipple
+      elementId: portrait
       type: ImageBlock
     badge:
       label: ''
@@ -34,15 +36,20 @@ sections:
       self:
         alignItems: center
         flexDirection: row
+        justifyContent: center
         padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
+          - pt-20
+          - pl-6
+          - pb-20
+          - pr-6
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
 seo:
-  metaTitle: Shea Whipple - Resume
-  metaDescription: Epic website
+  metaTitle: Shea Whipple
+  metaDescription: Software and data portfolio — resume for Shea Whipple.
   type: Seo
-  addTitleSuffix: false
+  addTitleSuffix: true
 type: PageLayout
 ---
