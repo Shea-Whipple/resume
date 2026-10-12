@@ -368,6 +368,12 @@
         line-height: 1.05;
         letter-spacing: -0.035em;
         font-weight: 600;
+        text-align: left;
+    }
+    #home-hero .w-full.max-w-sectionBody,
+    #home-hero .w-full.flex.flex-wrap {
+        text-align: left;
+        justify-content: flex-start !important;
     }
     #home-hero .portrait-frame {
         width: min(100%, 28rem);

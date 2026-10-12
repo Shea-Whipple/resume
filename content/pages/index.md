@@ -32,7 +32,7 @@ sections:
       self:
         alignItems: center
         flexDirection: row
-        justifyContent: center
+        justifyContent: flex-start
         padding:
           - pt-16
           - pl-6
