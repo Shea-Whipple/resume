@@ -66,8 +66,10 @@ sections:
           Conferred July 24, 2026.
 
 
-          Major in Computer Science with a Data Science specialization. Minors
-          in Psychology and Health, and in Music.
+          Major in Computer Science with a Data Science specialization.
+
+
+          Minors in Psychology and Health, and in Music.
         image:
           url: /images/diploma-college-of-idaho.jpg
           altText: >-
