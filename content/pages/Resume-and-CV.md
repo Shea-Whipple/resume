@@ -138,14 +138,13 @@ sections:
         title: Projects
         subtitle: ''
         text: >
-          [Directory search
-          script](https://github.com/Shea-Whipple/Weekend-Assignment) —
-          weekend project.
+          [Projects → GitHub](https://github.com/Shea-Whipple)
 
 
-          [Classification
-          Project](https://github.com/Shea-Whipple/Classification-Project) —
-          group project.
+          Directory search script — weekend project.
+
+
+          Classification Project — group project.
         actions: []
         colors: bg-light-fg-dark
         styles:
