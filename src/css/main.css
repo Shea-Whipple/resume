@@ -364,7 +364,7 @@
         min-height: 100vh;
         display: flex;
         flex-direction: column;
-        background-color: theme('colors.light');
+        background-color: #f7f8f9;
     }
     .sb-default-base-layout > main,
     .sb-layout.sb-page-layout {
