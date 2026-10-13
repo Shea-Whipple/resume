@@ -3,6 +3,7 @@ type: PageLayout
 title: Resume and CV
 sections:
   - type: GenericSection
+    elementId: resume-intro
     title:
       type: TitleBlock
       text: Shea Whipple
@@ -41,15 +42,16 @@ sections:
         flexDirection: col
         justifyContent: center
         padding:
-          - pt-16
+          - pt-12
           - pl-4
-          - pb-10
+          - pb-6
           - pr-4
       subtitle:
         textAlign: center
       text:
         textAlign: center
   - type: FeaturedItemsSection
+    elementId: resume-background
     title:
       type: TitleBlock
       text: Background
@@ -137,10 +139,10 @@ sections:
             flexDirection: col
             textAlign: left
       - type: FeaturedItem
-        title: Projects
+        title: ''
         subtitle: ''
         text: >
-          [Projects → GitHub](https://github.com/Shea-Whipple)
+          **Projects:** [GitHub](https://github.com/Shea-Whipple)
 
 
           Directory search script — weekend project.
@@ -206,8 +208,8 @@ sections:
     styles:
       self:
         padding:
-          - pb-24
-          - pt-8
+          - pb-12
+          - pt-4
           - pl-4
           - pr-4
         justifyContent: center

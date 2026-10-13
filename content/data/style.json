@@ -5,9 +5,9 @@
     "neutralAlt": "#d5dce2",
     "primary": "#2f4a3c",
     "fontBody": "sans",
-    "fontHeadlines": "sans",
+    "fontHeadlines": "serif",
     "h1": {
-        "size": "5xl",
+        "size": "4xl",
         "weight": "semibold",
         "decoration": "none",
         "case": "none",
@@ -15,7 +15,7 @@
         "type": "ThemeStyleHeading"
     },
     "h2": {
-        "size": "4xl",
+        "size": "3xl",
         "weight": "semibold",
         "decoration": "none",
         "case": "none",
@@ -24,15 +24,15 @@
     },
     "h3": {
         "size": "2xl",
-        "weight": "medium",
+        "weight": "semibold",
         "decoration": "none",
         "case": "none",
-        "letterSpacing": "normal",
+        "letterSpacing": "tight",
         "type": "ThemeStyleHeading"
     },
     "h4": {
         "size": "xl",
-        "weight": "medium",
+        "weight": "semibold",
         "decoration": "none",
         "case": "none",
         "letterSpacing": "normal",
