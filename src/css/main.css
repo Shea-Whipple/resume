@@ -14,6 +14,11 @@
         --type-body-leading: 1.65;
         --type-heading-leading: 1.15;
     }
+    html,
+    body,
+    #__next {
+        min-height: 100%;
+    }
     body {
         @apply text-base antialiased;
         font-family: var(--font-sans);
@@ -350,11 +355,43 @@
         display: block;
     }
 
+    /*
+     * Sticky footer in document flow: main grows; dark bar only at page end.
+     * Not position:sticky/fixed — no mid-scroll footer strip.
+     */
+    .sb-page,
+    .sb-default-base-layout {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: theme('colors.light');
+    }
+    .sb-default-base-layout > main,
+    .sb-layout.sb-page-layout {
+        flex: 1 1 auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .sb-page-layout > div[data-sb-field-path='sections'] {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .sb-component-footer {
+        flex-shrink: 0;
+        margin-top: auto;
+        position: static !important;
+    }
+
     /* Balanced home hero: photo + identity share one composition */
     #home-hero {
-        min-height: calc(100vh - 5rem);
         display: flex;
         align-items: center;
+        /* Absorb leftover viewport height so light area is the hero, not a gap */
+        flex: 1 1 auto;
+        width: 100%;
     }
     #home-hero > .max-w-7xl {
         width: 100%;
@@ -471,8 +508,51 @@
     }
 
     .sb-component-footer:not(:has(.sb-footer-bottom)) {
-        padding-top: 1.25rem;
-        padding-bottom: 1.25rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        min-height: 0;
+    }
+
+    /*
+     * Resume intro: unboxed identity (cleaner than an extra card above Background).
+     * Tight measure + contact rhythm; Background cards keep the bordered containers.
+     */
+    #resume-intro {
+        width: 100%;
+    }
+    #resume-intro .sb-component-title {
+        font-size: clamp(2.25rem, 4.5vw, 3rem);
+        letter-spacing: -0.03em;
+        line-height: 1.1;
+    }
+    #resume-intro .max-w-sectionBody {
+        max-width: 36rem;
+        margin-inline: auto;
+    }
+    #resume-intro .sb-markdown {
+        max-width: 32rem;
+        margin-inline: auto;
+    }
+    #resume-intro .sb-markdown > * + * {
+        margin-top: 0.65em;
+    }
+    #resume-intro .sb-markdown p {
+        margin-top: 0.55em;
+    }
+    #resume-intro .sb-markdown p:first-child {
+        margin-top: 0;
+        margin-bottom: 0.85em;
+    }
+    #resume-intro .flex.flex-wrap {
+        margin-top: 1.25rem !important;
+        justify-content: center !important;
+    }
+    #resume-background {
+        width: 100%;
+    }
+    #resume-background .sb-card {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
     }
 }
 
