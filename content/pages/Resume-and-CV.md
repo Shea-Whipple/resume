@@ -219,8 +219,8 @@ slug: Resume and CV
 isDraft: false
 seo:
   type: Seo
-  metaTitle: Resume
+  metaTitle: Shea Whipple - Resume
   metaDescription: Resume for Shea Whipple — software and data.
-  addTitleSuffix: true
+  addTitleSuffix: false
   metaTags: []
 ---

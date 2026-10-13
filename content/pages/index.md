@@ -43,9 +43,9 @@ sections:
       text:
         textAlign: left
 seo:
-  metaTitle: Shea Whipple
+  metaTitle: Shea Whipple - Home
   metaDescription: Software and data portfolio — resume for Shea Whipple.
   type: Seo
-  addTitleSuffix: true
+  addTitleSuffix: false
 type: PageLayout
 ---
