@@ -23,8 +23,9 @@ module.exports = {
                 primary: themeStyle.primary
             },
             fontFamily: {
-                sans: ['IBM Plex Sans', 'ui-sans-serif', 'sans-serif'],
-                serif: ['IBM Plex Serif', 'ui-serif', 'serif']
+                sans: ['"Source Sans 3"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+                serif: ['"Source Serif 4"', 'ui-serif', 'Georgia', 'serif'],
+                mono: ['"Source Code Pro"', 'ui-monospace', 'monospace']
             },
             gridTemplateColumns: {
                 16: 'repeat(16, minmax(0, 1fr))'

@@ -12,7 +12,8 @@ export default function ImageBlock(props) {
     const annotations = fieldPath
         ? { 'data-sb-field-path': [fieldPath, `${fieldPath}.url#@src`, `${fieldPath}.altText#@alt`, `${fieldPath}.elementId#@id`].join(' ').trim() }
         : {};
-    const isPortraitFrame = elementId === 'portrait';
+    // Same color-sampled gradient frame as the homepage portrait (see .portrait-frame)
+    const usesPortraitFrame = elementId === 'portrait' || elementId === 'diploma';
 
     return (
         <div
@@ -20,7 +21,8 @@ export default function ImageBlock(props) {
                 'sb-component',
                 'sb-component-block',
                 'sb-component-image-block',
-                isPortraitFrame && 'portrait-frame',
+                usesPortraitFrame && 'portrait-frame',
+                elementId === 'diploma' && 'portrait-frame--diploma',
                 className,
                 styles?.self?.margin ? mapStyles({ margin: styles?.self?.margin }) : undefined
             )}
