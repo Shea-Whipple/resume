@@ -343,10 +343,27 @@
         border-radius: calc(1.15rem - 2px);
     }
 
-    /* Diploma uses the same .portrait-frame treatment as the home portrait */
+    /*
+     * Diploma frame: same rounded gradient treatment as .portrait-frame, but
+     * colors sampled from /images/diploma-college-of-idaho.jpg edges
+     * (cream parchment → gold → warm bronze) — not the home portrait palette.
+     */
     .portrait-frame--diploma {
+        --diploma-cream: #e8d8b8;
+        --diploma-gold: #cc9c60;
+        --diploma-bronze: #745c48;
+        --portrait-sky: var(--diploma-cream);
+        --portrait-green: var(--diploma-gold);
+        --portrait-stone: var(--diploma-bronze);
         max-width: 26rem;
         width: 100%;
+        background: linear-gradient(
+            165deg,
+            var(--diploma-cream) 0%,
+            var(--diploma-gold) 48%,
+            var(--diploma-bronze) 100%
+        );
+        box-shadow: 0 18px 40px -26px rgba(116, 92, 72, 0.55);
     }
     .portrait-frame--diploma img,
     #diploma {
