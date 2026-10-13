@@ -137,10 +137,10 @@ sections:
             flexDirection: col
             textAlign: left
       - type: FeaturedItem
-        title: Projects
+        title: ''
         subtitle: ''
         text: >
-          [Projects → GitHub](https://github.com/Shea-Whipple)
+          **Projects:** [GitHub](https://github.com/Shea-Whipple)
 
 
           Directory search script — weekend project.
